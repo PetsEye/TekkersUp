@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04446C3EB705CA4E95D2F93B /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1D7DD97637CF9562CB3CE /* ButtonStyles.swift */; };
+		0EB3402603D6F1D5AB4666C8 /* Analyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3AFDCC4B2A0F7863381878 /* Analyzer.swift */; };
+		10C440A846854DC9438CDD50 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0098B5E91E8489751EC134 /* SessionView.swift */; };
+		1F4C0D92D1EFB92F42636B09 /* AuthFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0A996F864A937CCD049CB /* AuthFlowView.swift */; };
+		320FAD9A8408A4E89A434F3E /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8938D5BB03F5C965424DB93 /* Ball.swift */; };
+		38924DFD564D6709A9F69A98 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31E9AE5E3D112BF5CCAF3A /* Components.swift */; };
+		3A8592E8FDB5BBD177CDE0B6 /* CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7497CABC633884638D96950D /* CameraCapture.swift */; };
+		428F3F25D6FDD6F89F7A5354 /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F7B3CB04F83BFD367D3E4 /* ConfigView.swift */; };
+		457117654426AD829A1AC9A3 /* AccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B91C1EF55F4689F6B3BCBC /* AccountStore.swift */; };
+		493BA905409548C777F22C5A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F21EED73FDFFBB83720C0D /* WelcomeView.swift */; };
+		4DF6E7BA75CDC5FCAB9AD337 /* Drill.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2444CCFBA5E2DE2BF01B152 /* Drill.swift */; };
+		51E863F2D16CEBB9C2DAEA1D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59898DEA883CEDFB87913478 /* OnboardingView.swift */; };
+		52A7CD240663C395F6D6D5D9 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C5210D2F13AFA79913A65 /* FocusView.swift */; };
+		552CFA847557BD08398697D7 /* SessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6869B00F36528A7EC4C3EDC8 /* SessionRecord.swift */; };
+		5C8A6DBEE932ABF1960440F2 /* SkeletonOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B2902422FB3054898DA1B6 /* SkeletonOverlay.swift */; };
+		5FE6FF020246210D0B6BD32D /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05781310142ED7D998CDD5E /* ReportView.swift */; };
+		60BE8F0A70DC86D02DDF2EA0 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC29C613CE8C73179B0AA15 /* Geometry.swift */; };
+		63940D45597AFA8D130BA881 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EFB37C240F2B468F60622 /* CameraPreview.swift */; };
+		6DCF23ABCB77F315E6004394 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08297EA6810A928589A6F28D /* LogView.swift */; };
+		75692A0B37A93B7B32D72034 /* PoseProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065B6BF7A9D4AFDAE7004340 /* PoseProcessor.swift */; };
+		79BB2CD0FA8A756F69982965 /* BallDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EA75EB958963F8E2B17DC6 /* BallDetector.swift */; };
+		79D5D79FF2903D29A0F4BF1F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898D54A6A034AB6831E96781 /* Theme.swift */; };
+		83F9E91737FC11909FEA6661 /* DrillCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213D08B506B29EB2D66C8C39 /* DrillCatalog.swift */; };
+		8C59EFF1BA28CC842AECAAF9 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B5E5DE3E1B9762BAE07F4 /* LibraryView.swift */; };
+		A2BD04005C617D3DCCC85456 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716FC853F87901D94B143B9A /* BattleView.swift */; };
+		A96ED8B78A936B665D2519F7 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A29AD9B276A116DE84724B /* AppStore.swift */; };
+		ABC513AF6C5F2EDEFB0E1C23 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A7AF8860B45D20F54A559 /* MainTabView.swift */; };
+		AF4E47F676D6A5018A98AE3E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6F44B0A91A53FFB8AFC1A9 /* RootView.swift */; };
+		B2B2497CF6232DA76A2EA30A /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E913BFBEAA550B006D792 /* SessionModel.swift */; };
+		B8C7020EF6FE90694A642CCA /* DrillThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE84047F3277F5D93310CB /* DrillThumb.swift */; };
+		D41933E588D4D0CF5F5A4EED /* BrandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEEED4247B2F529F667C69C /* BrandMark.swift */; };
+		E2317C8BD8878D2D069F002C /* TekkerSupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998B024F8D49938ED734D926 /* TekkerSupApp.swift */; };
+		E74DC96B78060627AD0370EB /* AuthFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E072A2404391B67C5DFC5D2 /* AuthFormView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065B6BF7A9D4AFDAE7004340 /* PoseProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseProcessor.swift; sourceTree = "<group>"; };
+		08297EA6810A928589A6F28D /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		09EA75EB958963F8E2B17DC6 /* BallDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallDetector.swift; sourceTree = "<group>"; };
+		0DC29C613CE8C73179B0AA15 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		0E0E913BFBEAA550B006D792 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		1E072A2404391B67C5DFC5D2 /* AuthFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormView.swift; sourceTree = "<group>"; };
+		1E388F519CB3B4AD1BCA27A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		213D08B506B29EB2D66C8C39 /* DrillCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillCatalog.swift; sourceTree = "<group>"; };
+		263EFB37C240F2B468F60622 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		28F21EED73FDFFBB83720C0D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		380B5E5DE3E1B9762BAE07F4 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		487F74C787DF5454F6EF1B41 /* TekkerSup.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TekkerSup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6F7B3CB04F83BFD367D3E4 /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		4C0098B5E91E8489751EC134 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		59898DEA883CEDFB87913478 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		624A7AF8860B45D20F54A559 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		6869B00F36528A7EC4C3EDC8 /* SessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRecord.swift; sourceTree = "<group>"; };
+		716FC853F87901D94B143B9A /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
+		7497CABC633884638D96950D /* CameraCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCapture.swift; sourceTree = "<group>"; };
+		78B0A996F864A937CCD049CB /* AuthFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowView.swift; sourceTree = "<group>"; };
+		80B91C1EF55F4689F6B3BCBC /* AccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStore.swift; sourceTree = "<group>"; };
+		898D54A6A034AB6831E96781 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		97B2902422FB3054898DA1B6 /* SkeletonOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonOverlay.swift; sourceTree = "<group>"; };
+		998B024F8D49938ED734D926 /* TekkerSupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekkerSupApp.swift; sourceTree = "<group>"; };
+		9D31E9AE5E3D112BF5CCAF3A /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A5A29AD9B276A116DE84724B /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		ACDE84047F3277F5D93310CB /* DrillThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillThumb.swift; sourceTree = "<group>"; };
+		B05781310142ED7D998CDD5E /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		BCEEED4247B2F529F667C69C /* BrandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandMark.swift; sourceTree = "<group>"; };
+		C8938D5BB03F5C965424DB93 /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		CB6F44B0A91A53FFB8AFC1A9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		D2444CCFBA5E2DE2BF01B152 /* Drill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drill.swift; sourceTree = "<group>"; };
+		D59C5210D2F13AFA79913A65 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		DD3AFDCC4B2A0F7863381878 /* Analyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analyzer.swift; sourceTree = "<group>"; };
+		F3E1D7DD97637CF9562CB3CE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F2EBB147308DB1DB56E5B56 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				B05781310142ED7D998CDD5E /* ReportView.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		29BD53857B0D3616CC427988 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				78B0A996F864A937CCD049CB /* AuthFlowView.swift */,
+				1E072A2404391B67C5DFC5D2 /* AuthFormView.swift */,
+				59898DEA883CEDFB87913478 /* OnboardingView.swift */,
+				28F21EED73FDFFBB83720C0D /* WelcomeView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		4448083FC692E340F37C4E88 /* TekkerSup */ = {
+			isa = PBXGroup;
+			children = (
+				1E388F519CB3B4AD1BCA27A3 /* Info.plist */,
+				A116021DA0A2B613F437837D /* Analysis */,
+				B38D48730226D62FB355B2FC /* App */,
+				29BD53857B0D3616CC427988 /* Auth */,
+				46722DE1DCA607C788F2E566 /* Battle */,
+				863540398021D279C031FDB2 /* Design */,
+				4B63B2861E59E0FC0B518464 /* Main */,
+				846696D100BF48AB8F5F71DA /* Models */,
+				0F2EBB147308DB1DB56E5B56 /* Report */,
+				5980C7C2EADF95A7988E8B67 /* Session */,
+				B13244A8ED4274D398C86A14 /* Store */,
+			);
+			path = TekkerSup;
+			sourceTree = "<group>";
+		};
+		46722DE1DCA607C788F2E566 /* Battle */ = {
+			isa = PBXGroup;
+			children = (
+				716FC853F87901D94B143B9A /* BattleView.swift */,
+			);
+			path = Battle;
+			sourceTree = "<group>";
+		};
+		4B63B2861E59E0FC0B518464 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4A6F7B3CB04F83BFD367D3E4 /* ConfigView.swift */,
+				D59C5210D2F13AFA79913A65 /* FocusView.swift */,
+				380B5E5DE3E1B9762BAE07F4 /* LibraryView.swift */,
+				08297EA6810A928589A6F28D /* LogView.swift */,
+				624A7AF8860B45D20F54A559 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5980C7C2EADF95A7988E8B67 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				09EA75EB958963F8E2B17DC6 /* BallDetector.swift */,
+				7497CABC633884638D96950D /* CameraCapture.swift */,
+				263EFB37C240F2B468F60622 /* CameraPreview.swift */,
+				065B6BF7A9D4AFDAE7004340 /* PoseProcessor.swift */,
+				0E0E913BFBEAA550B006D792 /* SessionModel.swift */,
+				4C0098B5E91E8489751EC134 /* SessionView.swift */,
+				97B2902422FB3054898DA1B6 /* SkeletonOverlay.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		7C57657E7AA2EB39F93FB489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487F74C787DF5454F6EF1B41 /* TekkerSup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EB9FE897BD6BA96AB2A8506 = {
+			isa = PBXGroup;
+			children = (
+				4448083FC692E340F37C4E88 /* TekkerSup */,
+				7C57657E7AA2EB39F93FB489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846696D100BF48AB8F5F71DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2444CCFBA5E2DE2BF01B152 /* Drill.swift */,
+				213D08B506B29EB2D66C8C39 /* DrillCatalog.swift */,
+				6869B00F36528A7EC4C3EDC8 /* SessionRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		863540398021D279C031FDB2 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				BCEEED4247B2F529F667C69C /* BrandMark.swift */,
+				F3E1D7DD97637CF9562CB3CE /* ButtonStyles.swift */,
+				9D31E9AE5E3D112BF5CCAF3A /* Components.swift */,
+				ACDE84047F3277F5D93310CB /* DrillThumb.swift */,
+				898D54A6A034AB6831E96781 /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		A116021DA0A2B613F437837D /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				DD3AFDCC4B2A0F7863381878 /* Analyzer.swift */,
+				C8938D5BB03F5C965424DB93 /* Ball.swift */,
+				0DC29C613CE8C73179B0AA15 /* Geometry.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		B13244A8ED4274D398C86A14 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				80B91C1EF55F4689F6B3BCBC /* AccountStore.swift */,
+				A5A29AD9B276A116DE84724B /* AppStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		B38D48730226D62FB355B2FC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F44B0A91A53FFB8AFC1A9 /* RootView.swift */,
+				998B024F8D49938ED734D926 /* TekkerSupApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C345F11BC2DA113CB5D2653C /* TekkerSup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FCF360BBE37426D04578B9 /* Build configuration list for PBXNativeTarget "TekkerSup" */;
+			buildPhases = (
+				6C15F8A5CB983AE73FFBD91E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekkerSup;
+			packageProductDependencies = (
+			);
+			productName = TekkerSup;
+			productReference = 487F74C787DF5454F6EF1B41 /* TekkerSup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74E786B47401E9315A8D6ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C345F11BC2DA113CB5D2653C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A974C5D4800122E7EFB3BAAD /* Build configuration list for PBXProject "TekkerSup" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7EB9FE897BD6BA96AB2A8506;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7C57657E7AA2EB39F93FB489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C345F11BC2DA113CB5D2653C /* TekkerSup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C15F8A5CB983AE73FFBD91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457117654426AD829A1AC9A3 /* AccountStore.swift in Sources */,
+				0EB3402603D6F1D5AB4666C8 /* Analyzer.swift in Sources */,
+				A96ED8B78A936B665D2519F7 /* AppStore.swift in Sources */,
+				1F4C0D92D1EFB92F42636B09 /* AuthFlowView.swift in Sources */,
+				E74DC96B78060627AD0370EB /* AuthFormView.swift in Sources */,
+				320FAD9A8408A4E89A434F3E /* Ball.swift in Sources */,
+				79BB2CD0FA8A756F69982965 /* BallDetector.swift in Sources */,
+				A2BD04005C617D3DCCC85456 /* BattleView.swift in Sources */,
+				D41933E588D4D0CF5F5A4EED /* BrandMark.swift in Sources */,
+				04446C3EB705CA4E95D2F93B /* ButtonStyles.swift in Sources */,
+				3A8592E8FDB5BBD177CDE0B6 /* CameraCapture.swift in Sources */,
+				63940D45597AFA8D130BA881 /* CameraPreview.swift in Sources */,
+				38924DFD564D6709A9F69A98 /* Components.swift in Sources */,
+				428F3F25D6FDD6F89F7A5354 /* ConfigView.swift in Sources */,
+				4DF6E7BA75CDC5FCAB9AD337 /* Drill.swift in Sources */,
+				83F9E91737FC11909FEA6661 /* DrillCatalog.swift in Sources */,
+				B8C7020EF6FE90694A642CCA /* DrillThumb.swift in Sources */,
+				52A7CD240663C395F6D6D5D9 /* FocusView.swift in Sources */,
+				60BE8F0A70DC86D02DDF2EA0 /* Geometry.swift in Sources */,
+				8C59EFF1BA28CC842AECAAF9 /* LibraryView.swift in Sources */,
+				6DCF23ABCB77F315E6004394 /* LogView.swift in Sources */,
+				ABC513AF6C5F2EDEFB0E1C23 /* MainTabView.swift in Sources */,
+				51E863F2D16CEBB9C2DAEA1D /* OnboardingView.swift in Sources */,
+				75692A0B37A93B7B32D72034 /* PoseProcessor.swift in Sources */,
+				5FE6FF020246210D0B6BD32D /* ReportView.swift in Sources */,
+				AF4E47F676D6A5018A98AE3E /* RootView.swift in Sources */,
+				B2B2497CF6232DA76A2EA30A /* SessionModel.swift in Sources */,
+				552CFA847557BD08398697D7 /* SessionRecord.swift in Sources */,
+				10C440A846854DC9438CDD50 /* SessionView.swift in Sources */,
+				5C8A6DBEE932ABF1960440F2 /* SkeletonOverlay.swift in Sources */,
+				E2317C8BD8878D2D069F002C /* TekkerSupApp.swift in Sources */,
+				79D5D79FF2903D29A0F4BF1F /* Theme.swift in Sources */,
+				493BA905409548C777F22C5A /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40A84C2EEF71412E7432C9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = NO;
+				INFOPLIST_FILE = TekkerSup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekkersup.app;
+				PRODUCT_NAME = TekkerSup;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E97D8EC6B9E0077592BD86E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = NO;
+				INFOPLIST_FILE = TekkerSup/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekkersup.app;
+				PRODUCT_NAME = TekkerSup;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ED593064EF3910C9C7EA4DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FE0DD761EB492A0EA7638489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FCF360BBE37426D04578B9 /* Build configuration list for PBXNativeTarget "TekkerSup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A84C2EEF71412E7432C9CF /* Debug */,
+				E97D8EC6B9E0077592BD86E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A974C5D4800122E7EFB3BAAD /* Build configuration list for PBXProject "TekkerSup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0DD761EB492A0EA7638489 /* Debug */,
+				ED593064EF3910C9C7EA4DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E74E786B47401E9315A8D6ED /* Project object */;
+}

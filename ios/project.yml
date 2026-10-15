@@ -1,0 +1,36 @@
+name: TekkerSup
+options:
+  bundleIdPrefix: com.tekkersup
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+targets:
+  TekkerSup:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: TekkerSup
+    info:
+      path: TekkerSup/Info.plist
+      properties:
+        CFBundleDisplayName: TEKKERSUP
+        CFBundleName: TekkerSup
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UIUserInterfaceStyle: Dark
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSCameraUsageDescription: TEKKERSUP uses the camera to track your body and the ball during drills.
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tekkersup.app
+        PRODUCT_NAME: TekkerSup
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        ENABLE_PREVIEWS: NO
+        CODE_SIGN_STYLE: Automatic
